@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/priyanka-portfolio',
   supportedLocales: {
   "en-US": ""
 },
