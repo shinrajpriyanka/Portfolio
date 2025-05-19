@@ -1,0 +1,12 @@
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
+  <meta charset="utf-8">
+  <title>PriyankaPortfolio</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles-5INURTSO.css"><style ng-app-id="ng">.header[_ngcontent-ng-c717894805]{padding:40px;background-color:#f5f5f5;border-radius:8px}</style><style ng-app-id="ng">.about[_ngcontent-ng-c1865126811]{padding:40px;background-color:#f5f5f5;border-radius:8px}</style><style ng-app-id="ng">.project[_ngcontent-ng-c3146807726]{padding:40px;background-color:#f5f5f5;border-radius:8px}</style><style ng-app-id="ng">.skills[_ngcontent-ng-c3066244281]{padding:40px;background-color:#f5f5f5;border-radius:8px}</style><style ng-app-id="ng">.contact[_ngcontent-ng-c3722513923]{padding:40px;background-color:#f5f5f5;border-radius:8px}</style></head>
+<body><!--nghm-->
+  <app-root ng-version="19.2.11" ngh="0" ng-server-context="ssg"><app-header _nghost-ng-c717894805 ngh="0"><section _ngcontent-ng-c717894805 class="header"><h2 _ngcontent-ng-c717894805>Priyanka Shinraj</h2></section></app-header><app-about _nghost-ng-c1865126811 ngh="0"><section _ngcontent-ng-c1865126811 class="about"><h2 _ngcontent-ng-c1865126811>About Me</h2><p _ngcontent-ng-c1865126811> I'm a front-end developer specializing in Angular, passionate about building web applications. </p></section></app-about><app-projects _nghost-ng-c3146807726 ngh="0"><section _ngcontent-ng-c3146807726 class="project"><h2 _ngcontent-ng-c3146807726>Project Details</h2><p _ngcontent-ng-c3146807726> Hobby Projects </p><p _ngcontent-ng-c3146807726> Work Projects </p></section></app-projects><app-skills _nghost-ng-c3066244281 ngh="0"><section _ngcontent-ng-c3066244281 class="skills"><h2 _ngcontent-ng-c3066244281>My skills</h2><p _ngcontent-ng-c3066244281> Technologies: </p><p _ngcontent-ng-c3066244281> Tools: </p></section></app-skills><app-contact _nghost-ng-c3722513923 ngh="0"><section _ngcontent-ng-c3722513923 class="contact"><h2 _ngcontent-ng-c3722513923>Contact Me</h2><p _ngcontent-ng-c3722513923> Email Me: </p><p _ngcontent-ng-c3722513923> My LinkedIn: </p></section></app-contact></app-root>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-QV4VQX4R.js" type="module"></script>
+
+<script id="ng-state" type="application/json">{"__nghData__":[{}]}</script></body></html>`;
