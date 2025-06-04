@@ -1,15 +1,143 @@
+// body {
+//   display: flex;
+//   justify-content: center;   /* Centers horizontally */
+//   align-items: center;       /* Centers vertically */
+//   min-height: 100vh;          /* Ensures it takes up at least the full height of the viewport */
+//   margin: 0;                  /* Removes default margin */
+// }
+// .app-container {
+//   text-align: center; /* Optional: for text centering inside the container */
+//   padding: 20px;
+//   border: 1px solid #ccc;
+// }
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 0 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #005fa3;
+}
+
+/* Layout */
+header, footer {
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  text-align: center;
+}
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #111;
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 2.5rem;
+}
+
+/* Project Cards */
+.project {
+  background-color: #f9fafb;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #0077cc;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+.project:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.08);
+}
+.project h3 {
+  margin-bottom: 0.5rem;
+  color: #0077cc;
+}
+
+/* Skills list */
+.skills {
   display: flex;
-  justify-content: center;   /* Centers horizontally */
-  align-items: center;       /* Centers vertically */
-  min-height: 100vh;          /* Ensures it takes up at least the full height of the viewport */
-  margin: 0;                  /* Removes default margin */
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
-.app-container {
-  text-align: center; /* Optional: for text centering inside the container */
-  padding: 20px;
-  border: 1px solid #ccc;
+.skills span {
+  background-color: #e0f0ff;
+  color: #0077cc;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
 }
+
+/* Contact section */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 1rem;
+}
+.contact-info a {
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0077cc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
 @keyframes bubble-effect {
   0%   {background-color:red; left:0; top:0%;}
   25%  {background-color:yellow; left:20%; top:20%;}

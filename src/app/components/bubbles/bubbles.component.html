@@ -1,0 +1,14 @@
+<div class="bubbles-background">
+  @for (b of bubbles; track $index) {
+    <div
+    class="bubble"
+    [ngStyle]="{
+      '--size': b.size,
+      '--left': b.left,
+      '--opacity': b.opacity,
+      '--speed': b.speed
+    }"
+  ></div>
+  }
+
+</div>

@@ -1,16 +1,21 @@
 .skills-section {
   padding: 2rem;
-  background-color: #f9f9f9;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.8rem;
 }
 
-.skills-section h2 {
+.skills h2 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1.5rem;
+  margin-left: 40px;
 }
 
 .skills-category {
-  margin-bottom: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 .skills-category h3 {
@@ -20,7 +25,7 @@
 }
 
 .skills-category ul {
-  list-style-type: disc;
+  list-style-type: disclosure-closed;
   padding-left: 1.5rem;
 }
 

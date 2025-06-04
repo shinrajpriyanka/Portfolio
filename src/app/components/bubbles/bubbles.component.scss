@@ -1,0 +1,34 @@
+.bubbles-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  background: linear-gradient(to top, #7d949e, #e6ecee, #d1d4d6); /* dark gradient */
+}
+
+.bubble {
+  position: absolute;
+  bottom: -150px;
+  width: var(--size);
+  height: var(--size);
+  background: repeating-radial-gradient(#004D40, transparent 100px);
+  border-radius: 50%;
+  animation: rise var(--speed) linear infinite;
+  left: var(--left);
+  filter: blur(1px);
+  opacity: var(--opacity);
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: var(--opacity);
+  }
+  100% {
+    transform: translateY(-120vh) scale(1.2);
+    opacity: 0;
+  }
+}
